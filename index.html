@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form>
+    <h1>Solicitud de Préstamo</h1>
+   <div>
+    <label for="nombre">Nombre completo:</label>
+    <input type="text" required>
+    <br>
+   </div>
+
+    <div>
+      <label for="monto">Monto solicitado:</label>
+      <input type="number"required>
+      <br>
+    </div>
+
+    <div>
+      <label for="plazo">Plazo en meses:</label>
+      <input type="number" required>
+      <br>
+    </div>
+
+    <div>
+       <label for="ingresos">Ingresos mensuales:</label>
+       <input type="number" required>
+       <br>
+    </div>
+
+   <div>
+     <label for="empleo">Empleo actual:</label>
+     <input type="text">
+     <br>
+   </div>
+
+    <div>
+        <label for="historial_crediticio">Historial crediticio:</label>
+    <select id="historial_crediticio">
+        <option value="bueno">Bueno</option>
+        <option value="regular">Regular</option>
+        <option value="malo">Malo</option>
+    </select>
+    <br>
+    </div>
+
+   <div>
+    <label for="documentos">Documentos adjuntos:</label>
+    <input type="file" multiple>
+    <br>
+   </div>
+
+    <div>
+        <button>Enviar Solicitud</button>
+    </div>
+</form> 
+
+    </script>
+</body>
+</html>

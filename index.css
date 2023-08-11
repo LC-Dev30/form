@@ -1,0 +1,30 @@
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    padding: 5px;
+    width: 190px;
+}
+
+form{
+    margin: auto;
+    width: 450px;
+    background-color: rgb(197, 216, 232);
+    border-radius: 8px;
+    padding: 5px;
+}
+
+button{
+    padding: 10px;
+    background-color: #5f9ea0;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+}
